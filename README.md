@@ -57,7 +57,7 @@ You also need to make api calls from frontend to backend, which you shall cover 
         <ul>
           <li>Create page layout</li>
           <li>
-            Retrieve transactions data from the server from{' '}
+            Retrieve transactions data from the server from
             <u>/api/banking/transaction</u> endpoint
             <ul>
               Help of <b>functional programming on Arrays</b>:
@@ -67,8 +67,8 @@ You also need to make api calls from frontend to backend, which you shall cover 
                 based on order
               </li>
               <li>
-                format nicely expenses with{' '}
-                <b style={{ color: '#e00000' }}>red</b> color, income as{' '}
+                format nicely expenses with
+                <b style={{ color: '#e00000' }}>red</b> color, income as
                 <b style={{ color: 'green' }}>green</b>
               </li>
               <li>
@@ -83,26 +83,25 @@ You also need to make api calls from frontend to backend, which you shall cover 
               <li>
                 Layout & behavior to be followed:
                 <a
-                  href="https://github.com/finnoconsult/interview-test-transactions/blob/master/transaction-list-sample.mov"
+                  href="https://github.com/finnoconsult/interview-test-transactions/blob/main/transaction-list-sample.mov?raw=true"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  https://user-images.githubusercontent.com/28708898/142506751-6102ab0f-1f28-41c6-9332-993bc7c0050e.mov
+                  <img src="transaction-list-sample.png?raw=true"/>
                 </a>
-                
               </li>
               <li>
                 Apply weekly headers to transactions, and enlist all belonging
-                transactions underneath{' '}
+                transactions underneath
               </li>
               <li>
-                Weekly headers shall be sticky on scroll, see{' '}
+                Weekly headers shall be sticky on scroll, see
                 <a
-                  href="https://github.com/finnoconsult/interview-test-transactions/blob/master/transaction-list-sample.mov"
+                  href="https://github.com/finnoconsult/interview-test-transactions/blob/main/transaction-list-sample.mov?raw=true"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  see video for reference
+                  see above video for reference
                 </a>
               </li>
             </ul>
@@ -231,15 +230,3 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 
-
-## ☁ Nx Cloud
-
-### Distributed Computation Caching & Distributed Task Execution
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
