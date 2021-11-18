@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "pocket-bank": "apps/pocket-bank",
+    "pocket-bank-e2e": "apps/pocket-bank-e2e"
+  }
+}

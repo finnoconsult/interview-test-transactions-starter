@@ -1,0 +1,73 @@
+{
+  "root": "apps/pocket-bank",
+  "sourceRoot": "apps/pocket-bank/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/pocket-bank",
+        "index": "apps/pocket-bank/src/index.html",
+        "baseHref": "/",
+        "main": "apps/pocket-bank/src/main.tsx",
+        "polyfills": "apps/pocket-bank/src/polyfills.ts",
+        "tsConfig": "apps/pocket-bank/tsconfig.app.json",
+        "assets": [
+          "apps/pocket-bank/src/favicon.ico",
+          "apps/pocket-bank/src/assets"
+        ],
+        "styles": [],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/pocket-bank/src/environments/environment.ts",
+              "with": "apps/pocket-bank/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "options": {
+        "buildTarget": "pocket-bank:build",
+        "hmr": true,
+        "proxyConfig": "apps/pocket-bank/proxy.conf.json"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "pocket-bank:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/pocket-bank/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/pocket-bank"],
+      "options": {
+        "jestConfig": "apps/pocket-bank/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
