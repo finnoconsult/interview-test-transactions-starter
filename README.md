@@ -36,8 +36,11 @@ The workflow:
     - The transaction list is protected, so JWT token has to be specified
 
 
-You can create (or generate using Nx) your components under `apps/pocket-bank` project
-You also need to make api calls from frontend to backend, which you shall cover with your best practice.
+You can create (or generate using Nx) your components under `apps/pocket-bank` project.
+
+We prefer to see **state of art React solutions**, which shall utilize Function Components, Hooks.
+
+You also need to make api calls from frontend to backend, which you shall cover with **your best practice solution**.
 
 #### **Your tasks are**:
 <ol>
