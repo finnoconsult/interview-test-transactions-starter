@@ -111,10 +111,10 @@ You also need to make api calls from frontend to backend, which you shall cover 
       </li>
       </ol>
 
-This task be completed in 3-5 hours
+**Above task shall be completed in 3-5 hours**
 
 
-> Optional: Bonus features if you still have more time:
+> Optional: Bonus features if you still have more time or in favor to complete the following additions:
 > - logout button and call /api/logout
 > - open / collapse weekly sections in transaction list
 
