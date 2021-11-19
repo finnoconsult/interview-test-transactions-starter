@@ -22,8 +22,13 @@ This is the welcome page of your `HomeWork`, which is a blanket project, generat
 We would like you to demonstrate your development skills and shine while creating the default pages of a `Pocket-bank` web application optimized for mobile layout.
 
 ## Fork the repo
- Please fork this repo to your private GitHub user, so that you can commit to your own repo directly.
- Please make the forked repo public. Anyway you'll benefit from having a new pet-project under your own github profile.
+
+Please fork this repo to your private GitHub user, so that you can commit to your own repo directly.
+
+You can make your forked repo public. Anyway you'll benefit from having a new pet-project under your own github profile.
+
+We expect you to send a `pull request`, merging back your forked repository to our original repository after completing your tasks defined below.
+ 
 ## Do the chore
 ### Frontend Components and Workflow
 You need to comply with the following Frontend UI workflow according to the wireframe, your tasks are indicated in `red`:
