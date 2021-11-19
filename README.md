@@ -36,8 +36,11 @@ The workflow:
     - The transaction list is protected, so JWT token has to be specified
 
 
-You can create (or generate using Nx) your components under `apps/pocket-bank` project
-You also need to make api calls from frontend to backend, which you shall cover with your best practice.
+You can create (or generate using Nx) your components under `apps/pocket-bank` project.
+
+We prefer to see **state of art React solutions**, which shall utilize Function Components, Hooks.
+
+You also need to make api calls from frontend to backend, which you shall cover with **your best practice solution**.
 
 #### **Your tasks are**:
 <ol>
@@ -82,6 +85,7 @@ You also need to make api calls from frontend to backend, which you shall cover 
             <ul>
               <li>
                 Layout & behavior to be followed:
+                (You can make your design close to this, but does not need to be pixel perfect, also the color scheme can be your preference )
                 <a
                   href="https://github.com/finnoconsult/interview-test-transactions/blob/main/transaction-list-sample.mov?raw=true"
                   target="_blank"
@@ -110,10 +114,10 @@ You also need to make api calls from frontend to backend, which you shall cover 
       </li>
       </ol>
 
-This task be completed in 3-5 hours
+**Above task shall be completed in 3-5 hours**
 
 
-> Optional: Bonus features if you still have more time:
+> Optional: Bonus features if you still have more time or in favor to complete the following additions:
 > - logout button and call /api/logout
 > - open / collapse weekly sections in transaction list
 
