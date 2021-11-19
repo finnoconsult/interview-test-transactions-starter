@@ -47,7 +47,7 @@ You also need to make api calls from frontend to backend, which you shall cover 
           <li>Create a Login page layout</li>
           <li>Login form shall have username and password</li>
           <li>
-            Post form data to endpoint <u>/api/login</u>
+            Post the collected data of the form to endpoint <u>/api/login</u> in JSON
           </li>
           <li>Store authentication (JWT) data from response</li>
         </ul>
