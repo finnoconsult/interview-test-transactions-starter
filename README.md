@@ -83,7 +83,6 @@ You also need to make api calls from frontend to backend, which you shall cover 
               <li>
                 Layout & behavior to be followed:
                 (You can make your design close to this, but does not need to be pixel perfect, also the color scheme can be your preference )
-                
                 <a
                   href="https://github.com/finnoconsult/interview-test-transactions/blob/main/transaction-list-sample.mov?raw=true"
                   target="_blank"
