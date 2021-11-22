@@ -29,7 +29,7 @@ You can make your forked repo public. Anyway you'll benefit from having a new pe
 
 We expect you to send a `pull request`, merging back your forked repository to our original repository after completing your tasks defined below.
  
-## Do the chore
+## Perform the task
 ### Frontend Components and Workflow
 You need to comply with the following Frontend UI workflow according to the wireframe, your tasks are indicated in `red`:
 ![](frontend.tasks.png)
