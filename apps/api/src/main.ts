@@ -1,5 +1,6 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
+const cors = require('cors')
 import { Health } from '@interview-homework-transaction-list/api-interfaces';
 import { transactions, partners } from './data/db.json';
 import { User, UserInterface } from './app/User';
@@ -7,7 +8,10 @@ import { User, UserInterface } from './app/User';
 const app = express();
 
 const jsonParser = bodyParser.json();
-
+app.use(cors({
+  origin: true,
+  credentials: true
+}));
 let user: UserInterface | null = null;
 const started = new Date();
 
