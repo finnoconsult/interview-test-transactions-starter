@@ -5,6 +5,8 @@ import { transactions, partners } from './data/db.json';
 import { User, UserInterface } from './app/User';
 
 const app = express();
+const cors = require('cors');
+app.use(cors());
 
 const jsonParser = bodyParser.json();
 
